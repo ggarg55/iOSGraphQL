@@ -1,0 +1,13 @@
+query LaunchPads {
+  launchpads {
+    id
+    name
+    successful_launches
+    vehicles_launched {
+      id
+      name
+      description
+    }
+    attempted_launches
+  }
+}
